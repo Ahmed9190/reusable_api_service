@@ -5,7 +5,7 @@ part 'user_model.freezed.dart';
 part 'user_model.g.dart';
 
 @freezed
-class UserModel with _$UserModel implements JsonConvertibleModel {
+class UserModel with _$UserModel {
   @Implements<JsonConvertibleModel>()
   factory UserModel({
     required int id,

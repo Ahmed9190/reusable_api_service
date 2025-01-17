@@ -5,7 +5,7 @@ part 'todo_model.freezed.dart';
 part 'todo_model.g.dart';
 
 @freezed
-class TodoModel with _$TodoModel implements JsonConvertibleModel {
+class TodoModel with _$TodoModel {
   @Implements<JsonConvertibleModel>()
   factory TodoModel({
     required int id,

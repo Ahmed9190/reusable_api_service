@@ -4,7 +4,7 @@ import 'package:reusable_api_service/api_service.dart';
 
 import 'core/mixins/mixins.dart';
 
-class ResourceApiService<RetrieveModel extends JsonConvertibleModel,
+class ResourceApiService<RetrieveModel,
         CreateUpdateModel extends JsonConvertibleModel>
     with
         CreateMixin<RetrieveModel, CreateUpdateModel>,

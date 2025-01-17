@@ -21,7 +21,7 @@ void initInjection() {
   );
 }
 
-void injectDataSource<RetrieveModel extends JsonConvertibleModel,
+void injectDataSource<RetrieveModel,
     CreateUpdateUserModel extends JsonConvertibleModel>({
   required RetrieveModel Function(Map<String, dynamic>) fromJson,
   required String endpoint,

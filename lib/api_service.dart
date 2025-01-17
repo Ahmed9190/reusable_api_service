@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:reusable_api_service/models/json_convertible_model.dart';
 
-class ApiService<RetrieveModel extends JsonConvertibleModel,
+class ApiService<RetrieveModel,
     CreateUpdateModel extends JsonConvertibleModel> {
   final Dio _dio;
   final String _baseUrl;
