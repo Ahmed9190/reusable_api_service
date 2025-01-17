@@ -1,0 +1,17 @@
+{
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.DS_Store": true,
+    "**/.factorypath": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.svn": true,
+    "**/*.freezed.dart": true,
+    "**/*.g.dart": true,
+    "**/CVS": true,
+    "**/Thumbs.db": true
+  },
+  "explorerExclude.backup": {}
+}
